@@ -2198,16 +2198,12 @@ msgstr ""
 "付标准。"
 
 #: htdocs/luci-static/resources/view/homeproxy/ruleset.js:99
-msgid ""
-"Supports rule-set links of type: <code>local, remote</code> and format: "
-"<code>source, binary</code>."
-msgstr ""
-"支持的规则集链接类型: <code>local, remote</code> 和格式: "
-"<code>source, binary</code>.</br>"
+msgid "Supports rule-set links of type: <code>local, remote</code> and format: <code>source, binary</code>.</br>"
+msgstr "支持的规则集链接类型: <code>local, remote</code> 和格式: <code>source, binary</code>.</br>"
 
 #: htdocs/luci-static/resources/view/homeproxy/ruleset.js:105
 msgid "Please refer to <a href="%s" target="_blank">%s</a> for link format standards."
-msgstr "链接格式标准请参阅 <a href="%s" target="_blank">%s</a>"
+msgstr "链接格式标准请参阅 <a href="%s" target="_blank">%s</a> "
 
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:350
@@ -2933,6 +2929,18 @@ msgstr "单位 秒. 默认使用 <code>300</code>"
 #: htdocs/luci-static/resources/view/homeproxy/server.js:345
 msgid "Generate"
 msgstr "生成"
+
+#: htdocs/luci-static/resources/view/homeproxy/node.js:476
+msgid "Proxy protocol"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/homeproxy/node.js:477
+msgid "Write proxy protocol in the connection header."
+msgstr "在连接头中写入proxy protocol"
+
+#: htdocs/luci-static/resources/view/homeproxy/node.js:481
+msgid "Proxy protocol version"
+msgstr "Proxy protocol 版本"
 
 #~ msgid "Update time"
 #~ msgstr "更新时间"

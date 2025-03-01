@@ -2157,9 +2157,11 @@ msgid ""
 msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/ruleset.js:99
-msgid ""
-"Supports rule-set links of type: <code>local, remote</code> and format: "
-"<code>source, binary</code>."
+msgid "Supports rule-set links of type: <code>local, remote</code> and format: <code>source, binary</code>.</br>"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/homeproxy/ruleset.js:105
+msgid "Please refer to <a href="%s" target="_blank">%s</a> for link format standards."
 msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:350
@@ -2859,4 +2861,16 @@ msgstr ""
 #: htdocs/luci-static/resources/view/homeproxy/server.js:343
 #: htdocs/luci-static/resources/view/homeproxy/server.js:345
 msgid "Generate"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/homeproxy/node.js:476
+msgid "Proxy protocol"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/homeproxy/node.js:477
+msgid "Write proxy protocol in the connection header."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/homeproxy/node.js:481
+msgid "Proxy protocol version"
 msgstr ""
