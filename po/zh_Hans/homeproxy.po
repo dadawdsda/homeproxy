@@ -2201,7 +2201,8 @@ msgstr ""
 msgid ""
 "Supports rule-set links of type: <code>local, remote</code> and format: "
 "<code>source, binary</code>."
-msgstr "支持的规则集链接类型: <code>local, remote</code> 和格式: "
+msgstr ""
+"支持的规则集链接类型: <code>local, remote</code> 和格式: "
 "<code>source, binary</code>."
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:350
