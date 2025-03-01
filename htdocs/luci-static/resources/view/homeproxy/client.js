@@ -82,7 +82,7 @@ function renderStatus(isRunning, args) {
 					urlParams = String.format('?host=%s&port=%s&secret=%s', window.location.hostname, args.api_port, args.api_secret);
 					break;
 				case 'Zephyruso/zashboard':
-					urlParams = String.format('?hostname=%s&port=%s&secret=%s', window.location.hostname, args.api_port, args.api_secret);
+					urlParams = String.format('#/setup?hostname=%s&port=%s&secret=%s', window.location.hostname, args.api_port, args.api_secret);
 					break;
 				default:
 					break;
