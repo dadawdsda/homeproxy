@@ -1129,7 +1129,7 @@ msgstr "当选择的出站发生变化时，中断现有连接。"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:763
 msgid "Interval"
-msgstr ""
+msgstr "测速间隔"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:662
 #: htdocs/luci-static/resources/view/homeproxy/server.js:297
@@ -1598,7 +1598,7 @@ msgstr "出站节点"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:719
 msgid "Outbounds"
-msgstr ""
+msgstr "出站"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:464
 msgid "Override address"
@@ -2526,7 +2526,7 @@ msgstr "要启用此功能，您需要先安装 <b>luci-nginx</b> 和 <b>luci-ss
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:770
 msgid "Tolerance"
-msgstr ""
+msgstr "容差"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:791
 #: htdocs/luci-static/resources/view/homeproxy/server.js:319
