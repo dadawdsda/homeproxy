@@ -2853,3 +2853,10 @@ msgstr ""
 #: htdocs/luci-static/resources/view/homeproxy/client.js:360
 msgid "In seconds. <code>300</code> is used by default."
 msgstr ""
+
+#: htdocs/luci-static/resources/view/homeproxy/server.js:206
+#: htdocs/luci-static/resources/view/homeproxy/server.js:208
+#: htdocs/luci-static/resources/view/homeproxy/server.js:343
+#: htdocs/luci-static/resources/view/homeproxy/server.js:345
+msgid "Generate"
+msgstr ""

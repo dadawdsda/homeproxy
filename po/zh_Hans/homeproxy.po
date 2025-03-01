@@ -2927,6 +2927,13 @@ msgstr "UDP NAT 过期时间"
 msgid "In seconds. <code>300</code> is used by default."
 msgstr "单位 秒. 默认使用 <code>300</code>"
 
+#: htdocs/luci-static/resources/view/homeproxy/server.js:206
+#: htdocs/luci-static/resources/view/homeproxy/server.js:208
+#: htdocs/luci-static/resources/view/homeproxy/server.js:343
+#: htdocs/luci-static/resources/view/homeproxy/server.js:345
+msgid "Generate"
+msgstr "生成"
+
 #~ msgid "Update time"
 #~ msgstr "更新时间"
 
