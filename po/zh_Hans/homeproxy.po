@@ -2203,7 +2203,12 @@ msgid ""
 "<code>source, binary</code>."
 msgstr ""
 "支持的规则集链接类型: <code>local, remote</code> 和格式: "
-"<code>source, binary</code>."
+"<code>source, binary</code>.</br>"
+
+#: htdocs/luci-static/resources/view/homeproxy/ruleset.js:105
+msgid "Please refer to <a href="%s" target="_blank">%s</a> for link format standards."
+msgstr "链接格式标准请参阅 <a href="%s" target="_blank">%s</a>"
+
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:350
 msgid "System"

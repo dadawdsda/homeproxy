@@ -81,6 +81,9 @@ function renderStatus(isRunning, args) {
 				case 'metacubex/razord-meta':
 					urlParams = String.format('?host=%s&port=%s&secret=%s', window.location.hostname, args.api_port, args.api_secret);
 					break;
+				case 'Zephyruso/zashboard':
+					urlParams = String.format('?hostname=%s&port=%s&secret=%s', window.location.hostname, args.api_port, args.api_secret);
+					break;
 				default:
 					break;
 			}
@@ -1091,7 +1094,8 @@ return view.extend({
 			let repos = [
 				['metacubex/metacubexd', _('metacubexd')],
 				['metacubex/yacd-meta', _('yacd-meta')],
-				['metacubex/razord-meta', _('razord-meta')]
+				['metacubex/razord-meta', _('razord-meta')],
+				['Zephyruso/zashboard',_('zashboard')]
 			];
 
 			this.value('', _('Use Online Dashboard'));
