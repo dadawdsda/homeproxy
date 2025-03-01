@@ -782,7 +782,7 @@ if (routing_mode === 'custom') {
 
 		push(config.route.rule_set, {
 			type: cfg.type,
-			tag: 'cfg-' + cfg['.name'] + '-rule',
+			tag: cfg['.name'],
 			format: cfg.format,
 			path: cfg.path,
 			url: cfg.url,
