@@ -101,9 +101,7 @@ return view.extend({
 							   'file:///etc/homeproxy/ruleset/example.json?file=json#Example%20file\n'
 			});
 			ui.showModal(_('Import rule-set links'), [
-				E('p', _('Supports rule-set links of type: <code>local, remote</code> and format: <code>source, binary</code>.</br>') +
-							_('Please refer to <a href="%s" target="_blank">%s</a> for link format standards.')
-								.format('data:text/html;' + docdata, _('Ruleset-URI-Scheme'))),
+				E('p', _('Supports rule-set links of type: <code>local, remote</code> and format: <code>source, binary</code>.</br>')),
 				textarea.render(),
 				E('div', { class: 'right' }, [
 					E('button', {
