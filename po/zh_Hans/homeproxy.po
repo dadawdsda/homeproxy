@@ -2919,8 +2919,17 @@ msgstr "有效 uuid"
 msgid "yacd-meta"
 msgstr ""
 
+#: htdocs/luci-static/resources/view/homeproxy/client.js:359
+msgid "UDP NAT expiration time"
+msgstr "UDP NAT 过期时间"
+
+#: htdocs/luci-static/resources/view/homeproxy/client.js:360
+msgid "In seconds. <code>300</code> is used by default."
+msgstr "单位 秒. 默认使用 <code>300</code>"
+
 #~ msgid "Update time"
 #~ msgstr "更新时间"
 
 #~ msgid "Match outbound."
 #~ msgstr "匹配出站。"
+
