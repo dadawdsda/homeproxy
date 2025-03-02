@@ -412,7 +412,7 @@ function get_ruleset(cfg) {
 
 	let rules = [];
 	for (let i in cfg)
-		push(rules, isEmpty(i) ? null : 'cfg-' + i + '-rule');
+		push(rules, isEmpty(i) ? null : i );
 	return rules;
 }
 /* Config helper end */
